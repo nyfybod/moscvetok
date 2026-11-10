@@ -209,3 +209,25 @@ body.wine {font-size:var(--text-body)}
 .wine .contact-copy .button:hover {background:var(--orange-hover)}
 .wine .stars {color:var(--accent)}
 @media(max-width:400px){.wine .brand-emblem{width:38px;height:38px}.wine .brand-name{font-size:22px}.wine .brand small{font-size:9px}}
+
+/* One-time entrances live in motion.js. No content is hidden by these styles. */
+.wine .reveal {animation:none}
+.wine .brand-emblem {transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+.wine .nav a {position:relative;padding-block:8px}
+.wine .nav a::after {content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--orange);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.wine .nav a:hover::after,.wine .nav a:focus-visible::after {transform:scaleX(1)}
+.wine .product-photo,.wine .gallery-photo {transition:box-shadow .3s ease,transform .3s ease}
+.wine .service,.wine .review {transition:transform .3s ease,box-shadow .3s ease}
+.wine .button,.wine .pick,.wine .chip {transition:background .2s ease,color .2s ease,border-color .2s ease,transform .2s ease}
+.wine dialog[open] .dialog-grid {animation:mos-dialog-in .28s cubic-bezier(.2,.7,.2,1)}
+@keyframes mos-dialog-in {from {opacity:0;transform:translateY(12px) scale(.985)}to {opacity:1;transform:none}}
+@media(hover:hover) and (pointer:fine) {
+  .wine .brand:hover .brand-emblem {transform:rotate(9deg)}
+  .wine .product-photo:hover,.wine .gallery-photo:hover {transform:translateY(-4px);box-shadow:0 12px 24px #00443816}
+  .wine .service:hover,.wine .review:hover {transform:translateY(-4px);box-shadow:0 10px 24px #0044380c}
+  .wine .pick:hover,.wine .chip:hover {transform:translateY(-2px)}
+}
+@media(prefers-reduced-motion:reduce) {
+  .wine *, .wine *::before,.wine *::after {animation:none!important;transition:none!important}
+  .wine .brand:hover .brand-emblem,.wine .product-photo:hover,.wine .gallery-photo:hover,.wine .service:hover,.wine .review:hover,.wine .pick:hover,.wine .chip:hover,.wine .button:hover {transform:none}
+}
