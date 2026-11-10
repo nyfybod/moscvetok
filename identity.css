@@ -1,0 +1,191 @@
+/* Moscvetok: an open flower storefront, rather than the Rose73 collage. */
+body.wine {
+  --bg: #f5f4f6;
+  --paper: #ffffff;
+  --ink: #2c2630;
+  --muted: #655e69;
+  --accent: #664253;
+  --soft: #eae4ec;
+  --line: #d9d3dd;
+  --display: 'Manrope', Arial, sans-serif;
+  --radius: 8px;
+  --thumb: #a292ac;
+  --track: #eae4ec;
+  --hover: #50313f;
+  --active: #3b2430;
+  --highlight: #e8edc5;
+  --text-body: 16px;
+  --text-small: 13px;
+  --text-product: 17px;
+  --text-price: 22px;
+}
+.wine .topline {background:var(--bg);color:var(--muted);border-bottom:1px solid var(--line);padding:9px 15px;letter-spacing:.16em}
+.wine .header-row {min-height:87px}
+.wine .brand-name {font-family:var(--body);font-size:24px;font-weight:800;letter-spacing:-.06em}
+.wine .brand small {font-size:7px;letter-spacing:.19em;margin-top:5px}
+.wine .brand-mark {font-size:29px}
+.wine h1,.wine h2 {font-family:var(--body);font-weight:600;letter-spacing:-.065em;line-height:1.1}
+.wine h2 {font-size:clamp(34px,3.5vw,50px)}
+.wine .button,.wine .pick {border-radius:6px}
+.wine .button {font-size:12px;padding:14px 21px}
+.wine .hero {padding:45px 0 50px}
+.wine .hero-grid {grid-template-columns:1fr 1fr;gap:6%;align-items:stretch}
+.wine .hero-art {grid-column:1;grid-row:1;display:block;height:570px;position:relative;min-width:0}
+.wine .hero-main {height:100%;border-radius:8px;overflow:hidden}
+.wine .hero-main img {object-position:center 58%}
+.wine .hero-copy {grid-column:2;grid-row:1;align-self:center;padding:20px 0;min-width:0}
+.wine .hero-copy .eyebrow {font-size:9px;letter-spacing:.14em;margin-bottom:28px}
+.wine .hero h1 {font-size:clamp(48px,5.1vw,74px);line-height:1.08;letter-spacing:-.07em}
+.wine .hero h1 em {font-style:normal;font-weight:600;color:var(--accent)}
+.wine .hero-copy>p:not(.eyebrow) {max-width:360px;font-size:13px;margin-top:27px;line-height:1.85}
+.wine .hero .actions {margin-top:28px;gap:10px}
+.wine .hero-location {margin-top:32px;font-size:10px}
+.wine .art-label {left:20px;right:20px;bottom:20px;transform:none;background:var(--paper);border-radius:5px;padding:16px 20px;box-shadow:none;text-align:left;display:flex;align-items:center;justify-content:space-between;gap:20px;font-family:var(--body);font-size:12px;font-weight:600;line-height:1.5}
+.wine .art-label .hours {background:var(--highlight);border-radius:4px;padding:9px 11px;font-size:19px;line-height:1;white-space:nowrap;flex-shrink:0;color:var(--ink)}
+.wine .art-label span:not(.hours) {font:9px/1.6 var(--body);letter-spacing:.04em;text-transform:none;margin-top:3px}
+.wine .trustbar {border-block:1px solid var(--line);background:var(--paper);padding-block:23px}
+.wine .trust-grid strong {font-size:12px}
+.wine .trust-grid small {font-size:10px}
+.wine .section {padding-block:75px}
+.wine .reviews-section {padding-top:0}
+.wine .section-head .eyebrow {font-size:10px;margin-bottom:15px}
+.wine .chip {border-radius:6px;font-size:11px;min-height:42px}
+.wine .catalog-grid {gap:28px 21px}
+.wine .product {border:0;background:transparent;overflow:visible}
+.wine .product-photo {border-radius:8px;aspect-ratio:1/1.07}
+.wine .product-body {padding:18px 0 0}
+.wine .product h3 {font-size:14px;font-weight:600;margin-bottom:17px}
+.wine .product-bottom {border-top:1px solid var(--line);padding-top:15px}
+.wine .price {font-size:18px;letter-spacing:-.03em}
+.wine .photo-hint {border-radius:4px;font-size:9px}
+.wine .services-section {background:var(--soft)}
+.wine .service {border-color:transparent;border-radius:8px}
+.wine .service .icon {font-family:Georgia,serif;font-size:31px}
+.wine .service h3 {font-size:17px}
+.wine .about-photo,.wine .gallery-photo,.wine .review {border-radius:8px}
+.wine .about-grid {grid-template-columns:.95fr 1.05fr;gap:8%}
+.wine .tags span {border-radius:4px}
+.wine .rating-pill {border-radius:6px}
+.wine .contact-panel {border-radius:10px;grid-template-columns:1.05fr 1fr}
+.wine .contact-copy h2 {font-size:clamp(32px,3.6vw,49px);line-height:1.15}
+.wine .contact-copy {padding:45px}
+.wine .dialog-copy h2 {font-size:30px;line-height:1.2;letter-spacing:-.045em}
+.wine .menu-toggle {border-radius:5px}
+@media(max-width:1050px) {
+  .wine .hero-grid {gap:4%}
+  .wine .hero-art {height:530px}
+  .wine .hero h1 {font-size:clamp(43px,5.3vw,58px)}
+  .wine .hero .actions {flex-direction:column;align-items:stretch;max-width:290px}
+  .wine .hero-location {align-items:start;line-height:1.7}
+  .wine .dot {flex-shrink:0;margin-top:5px}
+  .wine .art-label {left:14px;right:14px;bottom:14px;padding:13px;gap:12px}
+  .wine .art-label span:not(.hours) {font-size:8px}
+}
+@media(max-width:760px) {
+  .wine .header-row {min-height:72px}
+  .wine .brand-name {font-size:23px}
+  .wine .hero {padding-top:28px;padding-bottom:32px}
+  .wine .hero-grid {grid-template-columns:1fr;gap:27px}
+  .wine .hero-copy {grid-row:1;grid-column:1;padding:0}
+  .wine .hero-copy .eyebrow {font-size:9px;margin-bottom:20px}
+  .wine .hero h1 {font-size:clamp(46px,8.5vw,64px);line-height:1.07}
+  .wine .hero h1 br:first-of-type {display:none}
+  .wine .hero-copy>p:not(.eyebrow) {max-width:450px;font-size:13px;margin-top:20px}
+  .wine .hero .actions {flex-direction:row;max-width:none;margin-top:22px}
+  .wine .hero .button {font-size:11px;padding:13px 17px;gap:12px}
+  .wine .hero-location {margin-top:23px}
+  .wine .hero-art {grid-column:1;grid-row:2;height:440px;max-width:none}
+  .wine .hero-main img {object-position:center 58%}
+  .wine .hero-main {border-radius:7px}
+  .wine .art-label {left:15px;right:15px;bottom:15px;padding:14px 17px}
+  .wine .trustbar {padding-block:21px}
+  .wine .section {padding-block:52px}
+  .wine h2 {font-size:34px;letter-spacing:-.055em}
+  .wine .catalog-grid {gap:24px 14px}
+  .wine .product-body {padding-top:13px}
+  .wine .product h3 {font-size:12px;line-height:1.55}
+  .wine .product-bottom {padding-top:12px}
+  .wine .product .price {font-size:17px}
+  .wine .pick {padding:9px 6px}
+  .wine .service h3 {font-size:16px}
+  .wine .about-grid {grid-template-columns:1fr;gap:27px}
+  .wine .review {padding:20px}
+  .wine .reviews-section {padding-top:0}
+  .wine .contact-panel {grid-template-columns:1fr}
+  .wine .contact-copy {padding:30px}
+  .wine .contact-copy h2 {font-size:34px}
+  .wine .mobile-call {border-radius:7px}
+  .wine .dialog-copy h2 {font-size:26px}
+}
+@media(max-width:400px) {
+  .wine .hero h1 {font-size:43px}
+  .wine .hero .actions {flex-direction:column}
+  .wine .hero .button {font-size:12px}
+  .wine .hero-art {height:350px}
+  .wine .art-label {left:10px;right:10px;bottom:10px;padding:12px;font-size:10px}
+  .wine .art-label .hours {font-size:17px}
+  .wine .contact-copy {padding:26px}
+  .wine .contact-copy h2 {font-size:30px}
+  .wine .rating-pill {font-size:10px;padding:12px 14px}
+}
+
+/* Reading sizes requested by the user; keep these after the compact base. */
+body.wine {font-size:var(--text-body)}
+.wine .topline {font-size:11px;letter-spacing:.1em}
+.wine .brand small {font-size:10px;letter-spacing:.12em}
+.wine .nav {font-size:14px;gap:24px}
+.wine .header-contact {font-size:15px}
+.wine .header-contact small {font-size:12px}
+.wine .eyebrow,.wine .hero-copy .eyebrow,.wine .section-head .eyebrow {font-size:12px;letter-spacing:.12em}
+.wine .hero h1 {font-size:clamp(52px,5.6vw,82px)}
+.wine h2 {font-size:clamp(36px,3.8vw,54px)}
+.wine .hero-copy>p:not(.eyebrow) {font-size:var(--text-body);max-width:420px;line-height:1.75}
+.wine .hero-location {font-size:var(--text-small);line-height:1.7}
+.wine .button {font-size:14px}
+.wine .art-label {font-size:15px}
+.wine .art-label span:not(.hours) {font-size:12px}
+.wine .trust-grid strong {font-size:15px}
+.wine .trust-grid small {font-size:12px;display:block;margin-top:5px;line-height:1.65}
+.wine .section-head>p,.wine .about-copy>p {font-size:var(--text-body)}
+.wine .chip,.wine .catalog-tools {font-size:14px}
+.wine .category {font-size:11px}
+.wine .product h3 {font-size:var(--text-product);line-height:1.55}
+.wine .price {font-size:var(--text-price)}
+.wine .pick {font-size:12px;line-height:1.6;text-align:center}
+.wine .photo-hint {font-size:11px}
+.wine .product-bottom {flex-wrap:wrap}
+.wine .service p,.wine .review p, .wine details p {font-size:15px;line-height:1.8}
+.wine .service strong {font-size:17px}
+.wine .textlink {font-size:14px}
+.wine .review footer strong {font-size:13px}
+.wine .review time,.wine .review a {font-size:12px}
+.wine .review footer {flex-wrap:wrap}
+.wine .note,.wine .tags span {font-size:var(--text-small)}
+.wine .rating-pill {font-size:14px;white-space:normal}
+.wine summary {font-size:16px}
+.wine .contact-copy>p {font-size:16px}
+@media(max-width:1050px) {
+  .wine .hero h1 {font-size:clamp(45px,5.8vw,64px)}
+  .wine .nav {gap:18px}
+}
+@media(max-width:760px) {
+  .wine .hero h1 {font-size:clamp(48px,9vw,68px)}
+  .wine .hero-copy>p:not(.eyebrow) {font-size:16px;max-width:480px}
+  .wine .hero .button {font-size:14px}
+  .wine .product h3 {font-size:15px}
+  .wine .product .price {font-size:20px}
+  .wine .pick {font-size:12px;padding:10px 7px}
+  .wine .art-label {font-size:14px}
+  .wine .trust-grid strong {font-size:14px}
+  .wine h2 {font-size:36px}
+}
+@media(max-width:400px) {
+  .wine .hero h1 {font-size:46px}
+  .wine .hero .button {font-size:14px}
+  .wine .topline {font-size:10px;letter-spacing:.06em}
+  .wine .hero-copy .eyebrow {font-size:11px}
+  .wine .art-label {font-size:13px}
+  .wine .art-label span:not(.hours) {font-size:11px}
+  .wine .chip {font-size:13px}
+  .wine .rating-pill {font-size:13px}
+}

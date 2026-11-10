@@ -1,0 +1,921 @@
+{
+  "name": "Moscvetok",
+  "source": "https://yandex.ru/maps/org/52951761300/",
+  "checked": "2026-11-09",
+  "rating": {
+    "ratingCount": 108,
+    "ratingValue": 5,
+    "reviewCount": 89
+  },
+  "phone": "+7 (989) 201-14-19",
+  "phoneValue": "+79892011419",
+  "address": "Красногорск, Подмосковный бульвар, 3Б",
+  "hours": "Круглосуточно",
+  "features": [
+    {
+      "id": "payment_by_credit_card",
+      "value": true,
+      "name": "Credit card payment",
+      "type": "bool",
+      "important": true
+    },
+    {
+      "id": "planter",
+      "value": true,
+      "name": "flowerpot",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "gift_wrapping_1",
+      "value": true,
+      "name": "gift wrapping",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "gift_certificate",
+      "value": true,
+      "name": "gift certificate",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "delivery",
+      "value": true,
+      "name": "delivery",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "good_place",
+      "value": true,
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "petfriendly",
+      "value": [
+        {
+          "id": "allowed_with_all_animals",
+          "name": "allowed with all animals"
+        }
+      ],
+      "name": "petfriendly",
+      "type": "enum",
+      "important": false
+    },
+    {
+      "id": "car_park",
+      "value": true,
+      "name": "parking",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "payment_method",
+      "value": [
+        {
+          "id": "cash",
+          "name": "cash"
+        },
+        {
+          "id": "cashless_payment",
+          "name": "cashless payment"
+        },
+        {
+          "id": "by_credit_card",
+          "name": "payment by credit card"
+        },
+        {
+          "id": "payment_card",
+          "name": "payment by card"
+        },
+        {
+          "id": "wire_transfer",
+          "name": "bank transfer"
+        },
+        {
+          "id": "qr_code",
+          "name": "QR code"
+        },
+        {
+          "id": "fast_payment_system",
+          "name": "Fast payment system"
+        },
+        {
+          "id": "online_payment",
+          "name": "online"
+        }
+      ],
+      "name": "payment method",
+      "type": "enum",
+      "important": false
+    },
+    {
+      "id": "Possible_with_dog",
+      "value": true,
+      "name": "Possible with a dog",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "wheelchair_accessability",
+      "value": true,
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "dried_flowers",
+      "value": true,
+      "name": "dried flowers",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "promotions",
+      "value": [
+        {
+          "id": "discounts",
+          "name": "discounts"
+        },
+        {
+          "id": "bonuses",
+          "name": "bonuses"
+        },
+        {
+          "id": "special_offers",
+          "name": "special offers"
+        },
+        {
+          "id": "promotions",
+          "name": "promotions"
+        },
+        {
+          "id": "gifts",
+          "name": "gifts"
+        }
+      ],
+      "name": "promotions",
+      "type": "enum",
+      "important": false
+    },
+    {
+      "id": "gift_wrapping",
+      "value": true,
+      "name": "gift wrapping",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "cards_and_envelopes",
+      "value": true,
+      "name": "greeting cards",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "preliminary_registration",
+      "value": true,
+      "name": "preliminary registration",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "wedding_floristry",
+      "value": true,
+      "name": "wedding floristry",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "indoor_plants",
+      "value": true,
+      "name": "indoor plants",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "parking_disabled",
+      "value": true,
+      "name": "parking for people with disabilities",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "wheelchair_access",
+      "value": [
+        {
+          "id": "full_access",
+          "name": "full access"
+        }
+      ],
+      "name": "wheelchair accessibility",
+      "type": "enum",
+      "important": false
+    },
+    {
+      "id": "new_year_gifts",
+      "value": true,
+      "name": "new year gifts",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "wi_fi",
+      "value": true,
+      "name": "Wi-Fi",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "soft_toys",
+      "value": true,
+      "name": "soft toys",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "street_entrance",
+      "value": true,
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "products_for_florists",
+      "value": true,
+      "name": "products for florists",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "sweet_gifts",
+      "value": true,
+      "name": "sweet gifts",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "wheelchair_accessible_vocabulary",
+      "value": [
+        {
+          "id": "wheelchair_accessible_pa",
+          "name": "Partially available"
+        }
+      ],
+      "name": "wheelchair accessible",
+      "type": "enum",
+      "important": false
+    },
+    {
+      "id": "products_garden_center",
+      "value": [
+        {
+          "id": "soils_and_fertilizers",
+          "name": "soils and fertilizers"
+        },
+        {
+          "id": "pots_and_planters",
+          "name": "pots and planters"
+        },
+        {
+          "id": "ornamental_plants",
+          "name": "ornamental plants"
+        }
+      ],
+      "name": "products",
+      "type": "enum",
+      "important": false
+    },
+    {
+      "id": "handmade_goods",
+      "value": true,
+      "name": "handmade goods",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "show_briefly_about_the_place_block",
+      "value": true,
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "pickup",
+      "value": true,
+      "name": "pickup points",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "new_years_compositions",
+      "value": true,
+      "name": "new year's compositions",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "doubloons_loyalty_card",
+      "value": true,
+      "name": "Discount card",
+      "type": "bool",
+      "important": false
+    }
+  ],
+  "products": [
+    {
+      "name": "Букет цветов из 75 белых роз Россия 40 см",
+      "category": "Розы",
+      "price": 9400.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/2757887/2a00000199ce589ec0107174cb07249dc3d2/{size}",
+      "description": "Роскошный букет из 75 белоснежных роз — изысканный подарок, выражающий чувства без слов. Подойдёт для свадьбы, юбилея или дня рождения, добавляя торжественности и нежности каждому моменту.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-tsvetov-iz-75-belyh-roz-rossiya-40-sm",
+      "sourceKey": "v1.xWqIzTVZzDWS2OFkB1dg8APZuY81Ruy0tDPlJ8e371M",
+      "id": "product-001",
+      "image": "assets/catalog/001.jpg",
+      "group": "roses",
+      "displayName": "Букет из 75 белых роз Россия 40 см",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "name": "Букет цветов из 51 красно-белой розы Россия 40 см",
+      "category": "Розы",
+      "price": 6700.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/3912342/2a00000199ce589e8b0c0cf1f5fe1f13158e/{size}",
+      "description": "Букет из 51 красной и белой розы — элегантный и торжественный подарок для самых трепетных моментов.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-tsvetov-iz-51-krasno-beloy-rozy-rossiya-40-sm",
+      "sourceKey": "v1.1eV5zH6xg7YwSAl5uBGR54orH_sL5fscx8cSbWXfTbw",
+      "id": "product-002",
+      "image": "assets/catalog/002.jpg",
+      "group": "roses",
+      "displayName": "Букет из 51 красно-белой розы Россия 40 см",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "name": "Букет цветов из 25 роз микс Эквадор",
+      "category": "Розы",
+      "price": 7300.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/2413620/2a0000019957e2ade7423a36143086c6b127/{size}",
+      "description": "Цветной букет из 25 эквадорских роз создаёт волшебное настроение и дарит яркие эмоции.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-iz-25-roz-miks-ekvador-60-sm",
+      "sourceKey": "v1.PUYUa5VpS2qoPAHqdqCpWw8kXwRMQ1mxksDRdGKmGH0",
+      "id": "product-003",
+      "image": "assets/catalog/003.jpg",
+      "group": "roses",
+      "displayName": "Букет из 25 роз микс Эквадор",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "name": "Букет цветов из 75 красных роз Россия 40 см",
+      "category": "Розы",
+      "price": 9400.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/2805495/2a00000199ce589e8583ff7b00028c969b1e/{size}",
+      "description": "Эффектный букет из 75 красных роз говорит о чувствах без слов. Для самых дорогих сердец.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-tsvetov-iz-75-krasnyh-roz-rossiya-40-sm",
+      "sourceKey": "v1.R9A5mSvYrpFcCJvBt-UFdQ2oSmQ02keemKtf4OxcsjM",
+      "id": "product-004",
+      "image": "assets/catalog/004.jpg",
+      "group": "roses",
+      "displayName": "Букет из 75 красных роз Россия 40 см",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "name": "Букет цветов из 21 красной розы Россия",
+      "category": "Розы",
+      "price": 4100.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/5392818/2a0000018bf98f1fffb76c0ac01acbd81721/{size}",
+      "description": "21 красная роза в букете — простая и вечная классика, символ внимания и нежности.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-iz-21-krasnoy-rozy-rossiya",
+      "sourceKey": "v1.CMyu2fUBw4pp7vQ3O7E5iHTDSJUxdCH4nSEftbDalg4",
+      "id": "product-005",
+      "image": "assets/catalog/005.jpg",
+      "group": "roses",
+      "displayName": "Букет из 21 красной розы Россия",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "name": "Букет цветов из 51 красной розы Россия",
+      "category": "Розы",
+      "price": 9499.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9685839/2a0000018b8d803db5ac42f4d39d906958af/{size}",
+      "description": "Букет из 51 красной розы — воплощение страсти и романтики. Впечатлит любую женщину.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-iz-51-krasnoy-roza-rossiya-60-sm",
+      "sourceKey": "v1.0KNb8uBEmeH70w-deHI0uTM9x5MD49wqEOGvDQ5Ae6w",
+      "id": "product-006",
+      "image": "assets/catalog/006.jpg",
+      "group": "roses",
+      "displayName": "Букет из 51 красной розы Россия",
+      "width": 1000,
+      "height": 990
+    },
+    {
+      "name": "Букет цветов из 101 белой розы Россия",
+      "category": "Розы",
+      "price": 19400.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9495815/2a0000018b8d803aed3ff4d738d514e2de65/{size}",
+      "description": "101 белая роза — символ чистой любви и безупречной красоты. Идеальный выбор для торжеств.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-iz-101-beloy-rozy-rossiya",
+      "sourceKey": "v1.Og-51KjAvUvlM4ABOVpfC9GFBFXfHP_jk9eY9nOrlWA",
+      "id": "product-007",
+      "image": "assets/catalog/007.jpg",
+      "group": "roses",
+      "displayName": "Букет из 101 белой розы Россия",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "name": "Букет цветов Искренность чувств",
+      "category": "Розы",
+      "price": 3500.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9495815/2a0000018b8d803cc7e7e6b1e1ee56472b8e/{size}",
+      "description": "“Искренность чувств” — букет из бордовых роз и эвкалипта, воплощение страсти и гармонии.",
+      "sourceUrl": "https://www.moscvetok.ru/product/iskrennost-chuvstv",
+      "sourceKey": "v1.onGwsqz-x0DrNPGvQF4Ed5we7NCuZeli-fEAMnoOj8M",
+      "id": "product-008",
+      "image": "assets/catalog/008.jpg",
+      "group": "roses",
+      "displayName": "Букет Искренность чувств",
+      "width": 1000,
+      "height": 997
+    },
+    {
+      "name": "Букет цветов Солнечная долина",
+      "category": "Авторские букеты",
+      "price": 4400.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9495815/2a0000018b8d803d6b95226fccf146812a03/{size}",
+      "description": "Букет с подсолнухами — солнечный позитив и радость, подарок без повода.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-zharkiy-den",
+      "sourceKey": "v1.LZJn0MvInXJHyNy-wVzluKVcergL5BK4J9dLOpYJY9E",
+      "id": "product-009",
+      "image": "assets/catalog/009.jpg",
+      "group": "bouquets",
+      "displayName": "Букет Солнечная долина",
+      "width": 1000,
+      "height": 987
+    },
+    {
+      "name": "Букет цветов Розовая пастила",
+      "category": "Авторские букеты",
+      "price": 4500.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9495815/2a0000018b8d803cc0b0852247d9dde22138/{size}",
+      "description": "\"Розовая пастила\" — нежный букет, созданный с любовью и заботой о получателе.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-rozovaya-pastila",
+      "sourceKey": "v1.XkB1rF7yX-7HfxZ_FdtI7r0-hI-6RJzCeOYTCqXlRho",
+      "id": "product-010",
+      "image": "assets/catalog/010.jpg",
+      "group": "bouquets",
+      "displayName": "Букет Розовая пастила",
+      "width": 1000,
+      "height": 984
+    },
+    {
+      "name": "Букет цветов Палитра Радости",
+      "category": "Авторские букеты",
+      "price": 2950.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9685839/2a0000018b8d803c6dc6ed6bb1ceb5ce11df/{size}",
+      "description": "Яркий микс цветов — воплощение радости, позитива и хорошего настроения.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-palitra-radosti",
+      "sourceKey": "v1.-xDRy9yRyXmD3GJaXDnnb-Uy6Y48sA-fUKpIS0Pf6uY",
+      "id": "product-011",
+      "image": "assets/catalog/011.jpg",
+      "group": "bouquets",
+      "displayName": "Букет Палитра Радости",
+      "width": 1000,
+      "height": 1008
+    },
+    {
+      "name": "Весенний букет",
+      "category": "Авторские букеты",
+      "price": 2750.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/5393394/2a0000018b8d803c0975b68ef528e729b4c1/{size}",
+      "description": "Весенний букет — символ обновления, свежести и новых начинаний.",
+      "sourceUrl": "https://www.moscvetok.ru/product/vesenniy-buket",
+      "sourceKey": "v1.UjuUjH_4ouXC29GYWiKdDIxxBSe53mx1N03yqHZ5F_E",
+      "id": "product-012",
+      "image": "assets/catalog/012.jpg",
+      "group": "bouquets",
+      "displayName": "Весенний букет",
+      "width": 1000,
+      "height": 1014
+    },
+    {
+      "name": "Букет цветов Летняя симфония",
+      "category": "Авторские букеты",
+      "price": 4900.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/12412149/2a0000018c1c5e371f5b62d4272e5046a8e3/{size}",
+      "description": "Летний букет — гармония цветов, наполненная теплом и солнечным светом.",
+      "sourceUrl": "https://www.moscvetok.ru/product/letnyaya-simfoniya",
+      "sourceKey": "v1.kLpVtgxBNkJ48vpSG_W0ha8ZeMuBy5oJSxSBLJMnekw",
+      "id": "product-013",
+      "image": "assets/catalog/013.jpg",
+      "group": "bouquets",
+      "displayName": "Букет Летняя симфония",
+      "width": 1000,
+      "height": 1067
+    },
+    {
+      "name": "Букет цветов Розовый твист",
+      "category": "Авторские букеты",
+      "price": 3300.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9495815/2a0000018b8d803c98910c75c2fdf41f55b5/{size}",
+      "description": "Розовый букет — нежный и романтичный подарок для вашей любимой.",
+      "sourceUrl": "https://www.moscvetok.ru/product/rozovyy-tvist",
+      "sourceKey": "v1.gUbMsPGVKyGvtZ04YtvKF5LPUHwMOHPD6_Onlg1jA_Y",
+      "id": "product-014",
+      "image": "assets/catalog/014.jpg",
+      "group": "bouquets",
+      "displayName": "Букет Розовый твист",
+      "width": 1000,
+      "height": 1001
+    },
+    {
+      "name": "Авторский букет цветов №15",
+      "category": "Авторские букеты",
+      "price": 4900.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9685839/2a0000018b8d803e070143d1f1fe0d90430e/{size}",
+      "description": "Авторский букет из хризантем — яркий подарок, созданный с душой для любимой.",
+      "sourceUrl": "https://www.moscvetok.ru/product/shkolnyy-buket-tsvetov-5",
+      "sourceKey": "v1.3guo8buFnt6gmDNMpKTkcQ6mzEIe_6_4hZdHTmmdvQY",
+      "id": "product-015",
+      "image": "assets/catalog/015.jpg",
+      "group": "bouquets",
+      "displayName": "Авторский букет цветов №15",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "name": "Авторский букет цветов №6",
+      "category": "Авторские букеты",
+      "price": 6100.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9495815/2a0000018b8d803a654a69a9f9d71aa3a8bf/{size}",
+      "description": "Букет с гортензией и антирринумом — стильный акцент в пасмурный день.",
+      "sourceUrl": "https://www.moscvetok.ru/product/shkolnyy-buket-tsvetov-7",
+      "sourceKey": "v1.fXkmF6IdNo_RHTFcD71zibnTUJGbszk6LdsIyn56z7c",
+      "id": "product-016",
+      "image": "assets/catalog/016.jpg",
+      "group": "bouquets",
+      "displayName": "Авторский букет цветов №6",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "name": "Букет цветов из 21 альстромерии",
+      "category": "Альстромерии",
+      "price": 4400.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/5236693/2a0000018b8d803d6ac05d89a8ca0972eca6/{size}",
+      "description": "Нежный монобукет из альстромерий — лёгкий, изысканный подарок, создающий атмосферу радости и тепла. Идеален для будней и праздников.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-iz-21-alstromerii-raduzhnyy",
+      "sourceKey": "v1.8W2HdkdB7FqIG1yVmOUtqTpGk2gmoKQtr2NrpiHiGXY",
+      "id": "product-017",
+      "image": "assets/catalog/017.jpg",
+      "group": "bouquets",
+      "displayName": "Букет из 21 альстромерии",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "name": "Букет цветов из 11 альстромерий",
+      "category": "Альстромерии",
+      "price": 3200.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9495815/2a0000018b8d803a4195703119e5afa0734f/{size}",
+      "description": "11 разноцветных альстромерий — радостный и светлый подарок для любого случая.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-iz-11-alstromeriy",
+      "sourceKey": "v1.dEq7GVNb35KTMJMh0Bkw965EkdlRYIfObhpzLXNsfAc",
+      "id": "product-018",
+      "image": "assets/catalog/018.jpg",
+      "group": "bouquets",
+      "displayName": "Букет из 11 альстромерий",
+      "width": 807,
+      "height": 824
+    },
+    {
+      "name": "Букет цветов из 3 гортензий",
+      "category": "Гортензии",
+      "price": 3000.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/5236693/2a0000018b8d803c7d5688371c11cccaa59b/{size}",
+      "description": "3 нежные гортензии — символ благодарности и искренней признательности.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-iz-3-gortenziy",
+      "sourceKey": "v1.eA6gPip7Lea0_Y1ES2_01czra0zYxx4s2BYJ5eosx_c",
+      "id": "product-019",
+      "image": "assets/catalog/019.jpg",
+      "group": "bouquets",
+      "displayName": "Букет из 3 гортензий",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "name": "Букет цветов из 5 гортензий",
+      "category": "Гортензии",
+      "price": 4600.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/5236693/2a0000018b8d803c9fd59c6b8bb6e8856785/{size}",
+      "description": "Букет из гортензий — воздушная нежность и романтика с особым шармом.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-iz-5-gortenziy",
+      "sourceKey": "v1.qw5AWHvy2ZeOMVfVVBSZxqvN7lNfECtqEjMoa3oMH20",
+      "id": "product-020",
+      "image": "assets/catalog/020.jpg",
+      "group": "bouquets",
+      "displayName": "Букет из 5 гортензий",
+      "width": 820,
+      "height": 838
+    },
+    {
+      "name": "Букет цветов из гипсофилы мини",
+      "category": "Букеты",
+      "price": 2800.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9685839/2a0000018b8d803cc102f8c4e33f7395f6ac/{size}",
+      "description": "Белая гипсофила — воздушное облако цветов, наполненное лёгкостью и нежностью.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-iz-gipsofily-oblachnyy-atlas",
+      "sourceKey": "v1.l0Z0eOMcLi3qDfxqepeXxGs184uoXQ5YzfWa9I63jA8",
+      "id": "product-021",
+      "image": "assets/catalog/021.jpg",
+      "group": "bouquets",
+      "displayName": "Букет из гипсофилы мини",
+      "width": 1000,
+      "height": 976
+    },
+    {
+      "name": "Букет цветов с ромашками",
+      "category": "Букеты",
+      "price": 4600.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9495815/2a0000018b8d803bf8cdc5729d0a0041844c/{size}",
+      "description": "Букет с ромашками — символ простоты, скромности и искренней чистоты.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-tsvetok-s-romashkami",
+      "sourceKey": "v1.MJm4gL8NWaRQFR4pjSeIENuyj174JymPIB-0HDFQXTg",
+      "id": "product-022",
+      "image": "assets/catalog/022.jpg",
+      "group": "bouquets",
+      "displayName": "Букет с ромашками",
+      "width": 1000,
+      "height": 1004
+    },
+    {
+      "name": "Букет цветов из 25 пионовидных и сингл роз Эквадор (микс)",
+      "category": "Букеты",
+      "price": 8300.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9495815/2a0000018b8d80394470acf5c878850438ba/{size}",
+      "description": "25 роз микс — нежное сочетание пионовидных и классических роз.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-iz-25-ekvadorskih-roz-miks-2",
+      "sourceKey": "v1.UVfADj1THCwzzamySIfUiqdZ2lanjvQw_nl0ovBJ9Cw",
+      "id": "product-023",
+      "image": "assets/catalog/023.jpg",
+      "group": "bouquets",
+      "displayName": "Букет из 25 пионовидных и сингл роз Эквадор (микс)",
+      "width": 1000,
+      "height": 1069
+    },
+    {
+      "name": "Букет цветов из 35 пионовидной и сингл роз Эквадор (микс)",
+      "category": "Букеты",
+      "price": 11300.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9685839/2a0000018b8d803c25283a84e9517a62c01f/{size}",
+      "description": "35 эквадорских роз микс — яркие цвета, подчёркивающие красоту и уникальность.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-iz-35-ekvadorskih-roz-miks",
+      "sourceKey": "v1.AZR3MUk6Xyh5U0KNue4rEXs8VZ930iOJpMsHRNkKZpQ",
+      "id": "product-024",
+      "image": "assets/catalog/024.jpg",
+      "group": "bouquets",
+      "displayName": "Букет из 35 пионовидной и сингл роз Эквадор (микс)",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "name": "Букет цветов из 21 кустовой хризантемы",
+      "category": "Хризантемы",
+      "price": 6400.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9495815/2a0000018b8d803ad6d91a6ae42b1113b418/{size}",
+      "description": "21 кустовая хризантема — яркий и радостный подарок для любого повода.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-iz-21-kustovoy-hrizantemy",
+      "sourceKey": "v1.F4JfgDkuIlhOXPh1QXnB8wpbh4S3nILmCqXcSWl126s",
+      "id": "product-025",
+      "image": "assets/catalog/025.jpg",
+      "group": "bouquets",
+      "displayName": "Букет из 21 кустовой хризантемы",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "name": "Букет цветов из 15 белых хризантем",
+      "category": "Хризантемы",
+      "price": 5100.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9685839/2a0000018b8d803ca335b7f0903ff6898e8a/{size}",
+      "description": "15 белых кустовых хризантем — чудесный символ радости и душевной теплоты.",
+      "sourceUrl": "https://www.moscvetok.ru/product/buket-iz-15-belyh-hrizantem",
+      "sourceKey": "v1.fZWryIHgBQ37HAMVTf-oBLhY3FtQZYjsD3-oeZ-P2_s",
+      "id": "product-026",
+      "image": "assets/catalog/026.jpg",
+      "group": "bouquets",
+      "displayName": "Букет из 15 белых хризантем",
+      "width": 1000,
+      "height": 958
+    },
+    {
+      "name": "Открытка брендированная \"Милой маме\" (розовая)",
+      "category": "Открытки",
+      "price": 150.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9495815/2a0000018b8d803bd448548d23e9551c792e/{size}",
+      "description": "Брендированная открытка для подарка — изящное дополнение к букету.",
+      "sourceUrl": "https://www.moscvetok.ru/product/otkrytka-brendirovannaya-miloy-mame-rozovaya",
+      "sourceKey": "v1.LUUNCtxYXD0_rHq5RPXemV1jdlB1bQI7Y2ZZgbSmSSU",
+      "id": "product-027",
+      "image": "assets/catalog/027.jpg",
+      "group": "gifts",
+      "displayName": "Открытка брендированная \"Милой маме\" (розовая)",
+      "width": 943,
+      "height": 572
+    },
+    {
+      "name": "Открытка брендированная «Милой маме» (розовая)",
+      "category": "Открытки",
+      "price": 150.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/9495815/2a0000018b8d803bd448548d23e9551c792e/{size}",
+      "description": "Открытка — чудесное дополнение к букету, чтобы выразить чувства словами.",
+      "sourceUrl": "https://www.moscvetok.ru/product/otkrytka-brendirovannaya-miloy-mame-rozovaya",
+      "sourceKey": "v1.8Gahb-skYuZdZm0FtQdTG2f6UybTZtqd3MMl5vJEE_s",
+      "id": "product-028",
+      "image": "assets/catalog/028.jpg",
+      "group": "gifts",
+      "displayName": "Открытка брендированная «Милой маме» (розовая)",
+      "width": 943,
+      "height": 572
+    },
+    {
+      "name": "Шоколад горький 58%, 100 гр",
+      "category": "Сладости",
+      "price": 550.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/3911103/2a0000019aceaa90bd8c3b96260046c9de7c/{size}",
+      "description": "Горький шоколад 58%, 100 гр — универсальное сладкое дополнение к букету, которое подойдёт для любителей насыщенного вкуса.",
+      "sourceUrl": "https://www.moscvetok.ru/product/shokolad-gorkiy-58-100-gr",
+      "sourceKey": "v1.9Mp7wyU4f5a76S3nxFMN8Zn3kzI8NYa2remyfPtpDWI",
+      "id": "product-029",
+      "image": "assets/catalog/029.jpg",
+      "group": "gifts",
+      "displayName": "Шоколад горький 58%, 100 гр",
+      "width": 314,
+      "height": 300
+    },
+    {
+      "name": "Шоколад горький с красным сицилийским апельсином, 90 гр",
+      "category": "Сладости",
+      "price": 500.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/11530991/2a00000191914c584ecd56799f8c17f79c84/{size}",
+      "description": "Горький шоколад с красным сицилийским апельсином, 90 гр — изысканное дополнение к букету для ценителей необычных вкусовых сочетаний.",
+      "sourceUrl": "https://www.moscvetok.ru/product/shokolad-gorkiy-s-krasnym-sitsiliyskim-apelsinom-90-gr",
+      "sourceKey": "v1.FR2rYZ2OzTCqkD7N2R5T7ROn5nZmLPqbxtWWkrsNnm4",
+      "id": "product-030",
+      "image": "assets/catalog/030.jpg",
+      "group": "gifts",
+      "displayName": "Шоколад горький с красным сицилийским апельсином, 90 гр",
+      "width": 700,
+      "height": 700
+    }
+  ],
+  "gallery": [
+    {
+      "sourceImage": "https://avatars.mds.yandex.net/get-altay/15081387/2a00000195a86950fd10f8ffd6e5444fa0fd/orig",
+      "image": "assets/gallery/01.jpg",
+      "width": 900,
+      "height": 1200
+    },
+    {
+      "sourceImage": "https://avatars.mds.yandex.net/get-altay/16503558/2a0000019759d0b5e81b58856b430def97c0/orig",
+      "image": "assets/gallery/02.jpg",
+      "width": 1000,
+      "height": 750
+    },
+    {
+      "sourceImage": "https://avatars.mds.yandex.net/get-altay/15018138/2a00000195a2d0cf05696037befb1a4819ab/orig",
+      "image": "assets/gallery/03.jpg",
+      "width": 900,
+      "height": 1200
+    },
+    {
+      "sourceImage": "https://avatars.mds.yandex.net/get-altay/15439859/2a00000195a2d0e3f9b28d3822111119bfc4/orig",
+      "image": "assets/gallery/04.jpg",
+      "width": 900,
+      "height": 1200
+    },
+    {
+      "sourceImage": "https://avatars.mds.yandex.net/get-altay/21025691/2a000001a19bbe0390607361d37e949e7686/orig",
+      "image": "assets/gallery/05.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "sourceImage": "https://avatars.mds.yandex.net/get-altay/15539509/2a0000019759d0b631cbaa0fa2423b747430/orig",
+      "image": "assets/gallery/06.jpg",
+      "width": 1000,
+      "height": 750
+    },
+    {
+      "sourceImage": "https://avatars.mds.yandex.net/get-altay/14234746/2a00000195a2d0d59d8f2873dd6d77972e2b/orig",
+      "image": "assets/gallery/07.jpg",
+      "width": 900,
+      "height": 1200
+    },
+    {
+      "sourceImage": "https://avatars.mds.yandex.net/get-altay/17670872/2a000001a19bbe11ad97586edf2a78f3f5b7/orig",
+      "image": "assets/gallery/08.jpg",
+      "width": 1000,
+      "height": 1000
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Екатерина М.",
+      "rating": 5,
+      "date": "2025-09-27",
+      "summary": "Покупательница отмечает выбор цветов, помощь флористов и бонусную программу.",
+      "source": "https://yandex.ru/maps/org/52951761300/reviews/?reviewId=UyisfMl-N5SADrPsZTl3Etf0Y6nruKhSW"
+    },
+    {
+      "author": "Яков Пономаренко",
+      "rating": 5,
+      "date": "2026-07-13",
+      "summary": "Автор хвалит работу флористов и подбор композиции к событию.",
+      "source": "https://yandex.ru/maps/org/52951761300/reviews/?reviewId=lf0ckZ0Bm1xhGR_WCLbbAPtR3Iz8rU-K"
+    },
+    {
+      "author": "Виктория",
+      "rating": 5,
+      "date": "2026-04-06",
+      "summary": "Покупательница отмечает круглосуточную работу, ассортимент и возможность доставки.",
+      "source": "https://yandex.ru/maps/org/52951761300/reviews/?reviewId=S3Be3HC09BHLWgWt0Yv1KWNGD32VUU91"
+    },
+    {
+      "author": "Алена Г.",
+      "rating": 5,
+      "date": "2026-01-23",
+      "summary": "Автор рассказывает о покупке двух букетов роз и помощи с выбором под бюджет.",
+      "source": "https://yandex.ru/maps/org/52951761300/reviews/?reviewId=E_WIKtSeg2uZWqub_H8VHuTEgI81Qcu"
+    },
+    {
+      "author": "Екатерина Куклина",
+      "rating": 5,
+      "date": "2026-07-05",
+      "summary": "Покупательница благодарит флориста за помощь в выборе композиции.",
+      "source": "https://yandex.ru/maps/org/52951761300/reviews/?reviewId=jVURqcZo8bCuHpmKw-uRfl_TPxk6Kr7"
+    },
+    {
+      "author": "Софа Храпко",
+      "rating": 5,
+      "date": "2026-07-09",
+      "summary": "Автор отмечает, что композицию собрали с желаемыми цветами в пределах бюджета.",
+      "source": "https://yandex.ru/maps/org/52951761300/reviews/?reviewId=pvmqVVJRjS1COPqpJQ-4cVw1giBcCwV"
+    }
+  ],
+  "services": [
+    {
+      "name": "Проведение мастер-классов по флористике",
+      "category": "Услуги",
+      "price": 2000.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/1521147/2a0000019d8c55808f1f305d9d3ebe387f82/{size}",
+      "description": "Проводим мастер-классы по флористике для детей 0+ и взрослых в нашем магазине, на площадке заказчика или на нейтральной территории — например, в кафе. Формат, угощения и детали обсуждаются индивидуально.",
+      "sourceUrl": null,
+      "sourceKey": "v1.tpCMS7wMZz9cn4E6WFu-dYuZDGhgfOWnxcpj-rpXeAs"
+    },
+    {
+      "name": "Оформление мероприятий",
+      "category": "Услуги",
+      "price": 10000.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/2510998/2a0000019d8c566668987cc34ad74a2e2043/{size}",
+      "description": "Оформляем входные группы, залы, квартиры и коммерческие пространства. Свадьбы, дни рождения, гендер-пати, вечеринки и траурные мероприятия. Также делаем сезонное оформление и даём рекомендации по декору.",
+      "sourceUrl": null,
+      "sourceKey": "v1.FURnoVc9PPnew7aZJVmdfF5_eR2M46VjWu48lOU_-IM"
+    },
+    {
+      "name": "Пересадка и уход за растениями",
+      "category": "Услуги",
+      "price": 300.0,
+      "sourceImage": null,
+      "description": "Мы оказываем услуги по пересадке и уходу за растениями в Красногорске — как дома, так и в офисе. Подбираем подходящий грунт, аккуратно пересаживаем растения и даём рекомендации по дальнейшему уходу. От 300р. за услугу.",
+      "sourceUrl": null,
+      "sourceKey": "v1.-ZZ8UbW_y-oj-dirOzF9RqW0QyiI1MAypw7FAJAnWyc"
+    },
+    {
+      "name": "Упаковка подарков",
+      "category": "Услуги",
+      "price": 300.0,
+      "sourceImage": "https://avatars.mds.yandex.net/get-sprav-products/2510998/2a0000019d8c7b33da33765e2ac3c909541e/{size}",
+      "description": "Упаковка подарков — это услуга для тех, кто хочет оформить подарок красиво и со вкусом. У нас вы можете заказать оформление вместе с цветами: купить цветы в Красногорске, заказать букет в Красногорске, заказать цветы с доставкой в Крас",
+      "sourceUrl": null,
+      "sourceKey": "v1.DE0w71Dqj-GLLAYXpkqOdPYHbJhGKn7TbeyCW_gishI"
+    }
+  ],
+  "socialLinks": [
+    {
+      "type": "max",
+      "href": "https://max.ru/u/f9LHodD0cOI4iKao3peOzi1ngzuSYsTiF54heCaXD1o4rD00GJzAjCQZj6A",
+      "readableHref": "max.ru/u/f9LHodD0cOI4iKao3peOzi1ngzuSYsTiF54heCaXD1o4rD00GJzAjCQZj6A"
+    },
+    {
+      "type": "telegram",
+      "href": "https://t.me/elena_manager_moszvetok_bot",
+      "readableHref": "@elena_manager_moszvetok_bot"
+    }
+  ]
+}
