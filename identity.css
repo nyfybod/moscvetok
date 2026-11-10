@@ -1,19 +1,23 @@
 /* Moscvetok: an open flower storefront, rather than the Rose73 collage. */
 body.wine {
-  --bg: #f5f4f6;
+  --bg: #fffaf3;
   --paper: #ffffff;
-  --ink: #2c2630;
-  --muted: #655e69;
-  --accent: #664253;
-  --soft: #eae4ec;
-  --line: #d9d3dd;
+  --ink: #143d34;
+  --muted: #56695f;
+  --accent: #004438;
+  --soft: #fff0dc;
+  --line: #e8ddcb;
   --display: 'Manrope', Arial, sans-serif;
   --radius: 8px;
-  --thumb: #a292ac;
-  --track: #eae4ec;
-  --hover: #50313f;
-  --active: #3b2430;
-  --highlight: #e8edc5;
+  --thumb: #d6a46e;
+  --track: #fff0dc;
+  --hover: #0b5c4b;
+  --active: #00382e;
+  --highlight: #ffbf38;
+  --orange: #ff791f;
+  --orange-hover: #ff994d;
+  --orange-active: #f56b10;
+  --coral: #ff797c;
   --text-body: 16px;
   --text-small: 13px;
   --text-product: 17px;
@@ -189,3 +193,19 @@ body.wine {font-size:var(--text-body)}
   .wine .chip {font-size:13px}
   .wine .rating-pill {font-size:13px}
 }
+
+/* Colours taken from the user-provided floral emblem. */
+.wine .brand-mark {display:flex;align-items:center;flex-shrink:0}
+.wine .brand-emblem {width:46px;height:46px;object-fit:contain;border-radius:4px;background:white}
+.wine .button {background:var(--orange);border-color:var(--orange);color:var(--ink)}
+.wine .button:hover {background:var(--orange-hover);border-color:var(--orange-hover);color:var(--ink)}
+.wine .button:active {background:var(--orange-active);border-color:var(--orange-active)}
+.wine .button.outline {background:transparent;color:var(--accent);border-color:var(--accent)}
+.wine .button.outline:hover {background:var(--soft)}
+.wine .hero h1 em {color:var(--accent);text-decoration:underline;text-decoration-color:var(--coral);text-decoration-thickness:.06em;text-underline-offset:.12em}
+.wine .art-label .hours {background:var(--highlight)}
+.wine .contact-panel {background:var(--accent)}
+.wine .contact-copy .button {background:var(--orange);border-color:var(--orange);color:var(--ink)}
+.wine .contact-copy .button:hover {background:var(--orange-hover)}
+.wine .stars {color:var(--accent)}
+@media(max-width:400px){.wine .brand-emblem{width:38px;height:38px}.wine .brand-name{font-size:22px}.wine .brand small{font-size:9px}}
